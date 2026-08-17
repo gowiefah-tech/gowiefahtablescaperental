@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gowiefahtablescapes.ca/sitemap.xml
