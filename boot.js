@@ -1,0 +1,1 @@
+(async()=>{const b=Uint8Array.from(atob(window.__GW),c=>c.charCodeAt(0));const h=await new Response(new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip'))).text();document.open();document.write(h);document.close()})().catch(e=>{document.body.innerHTML='<main><h1>GOWIEFAH Tablescapes</h1><p>Edmonton tablescape rentals.</p></main>';console.error(e)});
